@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Membuat Website</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather icons -->
+    <!-- NAMA WEB NYA: https://feathericons.com/ -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Im<span>'Lalalala</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About </a>
+        <a href="#menu-rill">Galery</a>
+        <a href="#contact">kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather=""></i></a>
+        <!-- shopping-cart -->
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero section Start -->
+
+    <section class="hero" id="home">
+      <main class="content">
+        <!-- <h1>Im lalala<span>lala</span></h1> -->
+        <!-- <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+          veniam.
+        </p> -->
+        <!-- <a href="#" class="cta">klik disini</a> -->
+      </main>
+    </section>
+    <!-- Hero section End -->
+
+    <!-- About section start -->
+
+    <section id="about" class="about">
+      <h2><span>About</span> lala</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="./img/about-la.svg" alt="lala" />
+        </div>
+
+        <div class="content">
+          <div class="content-kalimat">
+            <h3>Fadila Putri Nugraha</h3>
+            <p>
+              Dia adalah sosok perempuan yang penuh ceria dan inspirasi. Dengan
+              kepintaran dan semangatnya, Dia selalu membawa keceriaan ke mana
+              pun dia berada. Banyak sekali Anak-anak kecil menyayanginya karena
+              perhatian dan kasih sayangnya yang tulus, dan setiap orang yang
+              mengenalnya bisa merasakan ketulusan yang dia berikan. Dia bukan
+              hanya pekerja keras, tetapi juga seorang pemimpi yang berani
+              mewujudkan cita-citanya, meski harus berhadapan dengan segala
+              tantangan
+            </p>
+            <p>
+              Dalam perjalanan ini, mungkin lelah dan ragu kadang menyapamu.
+              Tapi ingatlah, setiap langkah yang kamu ambil dalam kuliah dan
+              kerja adalah bagian dari impianmu yang indah. Semangat juga buat
+              nyusun Skripsinya, karena apa yang kamu tanam saat ini akan tumbuh
+              menjadi keberhasilan yang luar biasa
+            </p>
+          </div>
+          <button class="show-message-button" onclick="showMessage()">
+            Happy Apa?
+          </button>
+
+          <button class="btn2" id="btn2">ubah</button>
+        </div>
+      </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Menu Section Start -->
+    <section id="menu-rill" class="menu-rill">
+      <h2><span>Birthday</span> Galery</h2>
+      <div class="lebar">
+        <p>
+          Selamat ulang tahun, Fadila Putri! Semoga di usia baru ini, segala
+          harapan dan impianmu bisa terwujud dengan indah. Kamu adalah sosok
+          yang kuat, pekerja keras, dan penuh kebaikan. Semoga Allah selalu
+          melimpahkan kesehatan, kebahagiaan, dan keberkahan di setiap
+          langkahmu.
+        </p>
+      </div>
+      <div class="row">
+        <div class="menu-card">
+          <img src="./img/menu/1.png" alt="menu1" class="menu-card-img" />
+          <h4 class="menu-card-title">FADILA</h4>
+          <p class="menu-card-p"></p>
+        </div>
+        <div class="menu-card">
+          <img src="./img/menu/2.png" alt="menu2" class="menu-card-img" />
+          <h4 class="menu-card-title">LALA</h4>
+          <p class="menu-card-p"></p>
+        </div>
+        <div class="menu-card">
+          <img src="./img/menu/3.png" alt="menu3" class="menu-card-img" />
+          <h4 class="menu-card-title">DILULL</h4>
+          <p class="menu-card-p"></p>
+        </div>
+        <div class="menu-card">
+          <img src="./img/menu/4.png" alt="menu4" class="menu-card-img" />
+          <h4 class="menu-card-title">PADILULL</h4>
+          <p class="menu-card-p"></p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Bagian Bunga -->
+    <section id="bunga">
+      <canvas id="heart"></canvas>
+      <!-- <h1>Fadila Putri Nugraha</h1>  -->
+    </section>
+
+    <!-- ===================================================================================== -->
+    <!-- Feather icons -->
+    <!-- ===================================================================================== -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- ========My javascript======== -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
