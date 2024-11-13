@@ -88,7 +88,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url(../img/hero.png);
+  /* background-image: url(../img/hero.png); */
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: center; */
@@ -208,13 +208,11 @@ body {
   /* display: block; */
 }
 
-
-
 .btn2 {
   padding: 10px 30px;
   font-size: 16px;
   cursor: pointer;
-  background-color:brown;
+  background-color: brown;
   color: rgb(19, 19, 19);
   border: none;
   border-radius: 5px;
@@ -222,22 +220,22 @@ body {
   display: inline;
 }
 
-button{
+button {
   margin-right: 10px;
 }
 
 /* ====KODE BAGIAN BUTTON UBAH WARNA==== */
-.ubah-warna{
-  background-color:rgb(231, 228, 213);
+.ubah-warna {
+  background-color: rgb(231, 228, 213);
   color: #2a1206;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Styling for animated message */
 .animated-message {
   font-size: 1.5em;
   font-weight: bold;
-  color:#3c2418;
+  color: #3c2418;
   position: fixed;
   top: 14%;
   left: -100%; /* Start from off-screen left */
@@ -323,13 +321,13 @@ button{
 
 /* ===============kode bagian bunga Start============== */
 canvas {
-    position: absolute;
-    left:0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,.2);
-  }
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
 /* ===============kode bagian bunga End============== */
 
 /* ============================MEDIA QUERIES============================ */
