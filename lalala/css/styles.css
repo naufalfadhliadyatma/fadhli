@@ -27,7 +27,7 @@ body {
   align-items: center; /*agar semuanya sejajar secara vertikal*/
   padding: 1.4rem 7%; /* 1.4rem artinya 1.4 di kali 16 (untuk atas bawah) lalu kiri kanan agar responsive di bikin 7% */
   background-color: rgba(1, 1, 1, 0.7);
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 1px solid deeppink;
   position: fixed; /* agar ketika navbar di scroll akan tetap di tempat*/
   top: 0;
   right: 0;
@@ -43,7 +43,8 @@ body {
 }
 
 .navbar-logo > span {
-  color: var(--primary);
+  /* color: var(--primary); */
+  color: deeppink;
 }
 
 .navbar-nav a {
@@ -54,14 +55,14 @@ body {
 }
 
 .navbar-nav a:hover {
-  color: var(--primary);
+  color: deeppink;
 }
 
 .navbar-nav a::after {
   content: "";
   display: block;
   padding-bottom: 0.5rem;
-  border-bottom: 0.1rem solid var(--primary);
+  border-bottom: 0.1rem solid deeppink;
   transform: scaleX(0);
   transition: 0.2s linear;
 }
@@ -76,7 +77,7 @@ body {
 }
 
 .navbar-extra a:hover {
-  color: var(--primary);
+  color: deeppink;
 }
 
 #menu {
@@ -149,7 +150,7 @@ body {
 }
 
 .about h2 span {
-  color: var(--primary);
+  color: deeppink;
 }
 
 /* ============================ABOUT SECTION============================ */
@@ -200,8 +201,8 @@ body {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  background-color: var(--primary);
-  color: rgb(19, 19, 19);
+  background-color: rgb(238, 237, 237);
+  color: deeppink;
   border: none;
   border-radius: 5px;
   margin-top: 20px;
@@ -212,7 +213,7 @@ body {
   padding: 10px 30px;
   font-size: 16px;
   cursor: pointer;
-  background-color: brown;
+  background-color: rgb(247, 71, 165);
   color: rgb(19, 19, 19);
   border: none;
   border-radius: 5px;
@@ -227,6 +228,7 @@ button {
 /* ====KODE BAGIAN BUTTON UBAH WARNA==== */
 .ubah-warna {
   background-color: rgb(231, 228, 213);
+  /* background-color: rgb(231, 228, 213); */
   color: #2a1206;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -235,7 +237,7 @@ button {
 .animated-message {
   font-size: 1.5em;
   font-weight: bold;
-  color: #3c2418;
+  color: #f454e6;
   position: fixed;
   top: 14%;
   left: -100%; /* Start from off-screen left */
@@ -256,7 +258,7 @@ button {
 /* ============================MENU SECTION============================ */
 
 .menu-rill h2 span {
-  color: var(--primary);
+  color: deeppink;
 }
 
 .lebar {
